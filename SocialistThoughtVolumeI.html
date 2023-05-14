@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Socialist Thought: The Forerunners 1789-1850</title>
+ <button class="darkModeButton" onclick="darkMode()">
+		Dark Mode
+	</button>
+	<button class="lightModeButton" onclick="lightMode()">
+		Light Mode
+	</button>
 </head>
 <body text="FFFFFF" bgcolor="000000">
  <style>
@@ -24,8 +30,30 @@
  .JustifyParagraph {
     text-align:justify;
   }
+  .darkModeButton {
+			background-color: black;
+			color: white;
+			border: none;
+			height: 36px;
+		}
+		.lightModeButton {
+			background-color: white;
+			color: black;
+			border: none;
+			height: 36px;
+		}
  </style> 
-  
+ <script>
+		function darkMode() {
+			document.body.setAttribute("text", "FFFFFF");
+			document.body.setAttribute("bgcolor", "000000");
+		}
+		function lightMode() {
+			document.body.setAttribute("text", "000000");
+			document.body.setAttribute("bgcolor", "FFFFFF");
+		}
+	</script> 
+ 
 <h1 class="CentreHeading">Socialist Thought: The Forerunners 1789-1850</h1>
   <h2 class="CentreHeading">Contents:</h2>
   <ol type="I">
