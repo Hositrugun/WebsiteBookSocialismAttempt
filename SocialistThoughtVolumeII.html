@@ -4,10 +4,55 @@
 <meta charset="utf-8">
 <meta name="viewport" content ="width=device-width, initial-scale=1">
 <title>Socialist Thought: Marxism and Anarchism 1850-1890</title>
+  <button class="darkModeButton" onclick="darkMode()">
+		Dark Mode
+	</button>
+	<button class="lightModeButton" onclick="lightMode()">
+		Light Mode
+	</button>
 </head>
-<body>
-  <body bgcolor="000000">
-  <body text="FFFFFF">
+<body text="FFFFFF" bgcolor="000000">
+  <style>
+  ul {
+    list-style-type: none;
+    line-height: 1.5;
+  }
+
+  #PrincipleCharDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+
+  .CentreHeading {
+    text-align:center;
+  }
+ .JustifyParagraph {
+    text-align:justify;
+  }
+  .darkModeButton {
+			background-color: black;
+			color: white;
+			border: none;
+			height: 36px;
+		}
+		.lightModeButton {
+			background-color: white;
+			color: black;
+			border: none;
+			height: 36px;
+		}
+ </style> 
+  <script>
+		function darkMode() {
+			document.body.setAttribute("text", "FFFFFF");
+			document.body.setAttribute("bgcolor", "000000");
+		}
+		function lightMode() {
+			document.body.setAttribute("text", "000000");
+			document.body.setAttribute("bgcolor", "FFFFFF");
+		}
+	</script>    
 <center><h1>Socialist Thought: Marxism and Anarchism 1850-1890</h1>
   <h2>Contents:</h2></center>
   <ol type="I">
