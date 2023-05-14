@@ -4,10 +4,55 @@
 <meta charset="utf-8">
 <meta name="viewport" content ="width=device-width, initial-scale=1">
 <title>Socialist Thought: The Forerunners 1789-1850</title>
+   <button class="darkModeButton" onclick="darkMode()">
+		Dark Mode
+	</button>
+	<button class="lightModeButton" onclick="lightMode()">
+		Light Mode
+	</button>
 </head>
-<body>
-  <body bgcolor="000000">
-  <body text="FFFFFF">
+<body text="FFFFFF" bgcolor="000000">
+<style>
+  ul {
+    list-style-type: none;
+    line-height: 1.5;
+  }
+
+  #PrincipleCharDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+
+  .CentreHeading {
+    text-align:center;
+  }
+ .JustifyParagraph {
+    text-align:justify;
+  }
+  .darkModeButton {
+			background-color: black;
+			color: white;
+			border: none;
+			height: 36px;
+		}
+		.lightModeButton {
+			background-color: white;
+			color: black;
+			border: none;
+			height: 36px;
+		}
+ </style> 
+   <script>
+		function darkMode() {
+			document.body.setAttribute("text", "FFFFFF");
+			document.body.setAttribute("bgcolor", "000000");
+		}
+		function lightMode() {
+			document.body.setAttribute("text", "000000");
+			document.body.setAttribute("bgcolor", "FFFFFF");
+		}
+	</script> 
 <h2>Explanation: What is this website?</h2>
   <p>The following is an attempt, by an admitted amateur, at creating an HTML markup of an important text, by G.D.H. Cole, on the history of Socialist ideology, and philosopy. The work is out of print, difficult to find in any but the most well-stocked of libraries, and heretorefore, no digital version of it has ever been made; this is an attempt to rectify that. I apologise in advance for any issues in formatting, or readability of the text. I must reiterate that this is my first real attempt at building any kind of website. <br> If you have any suggestions, then you may contact me at <br> The actual book can be found <a href="https://hositrugun.github.io/WebsiteBookSocialismAttempt/SocialistThoughtVolumeI.html">here</a>.</p>
   <p>This text last updated on 2023-05-14
