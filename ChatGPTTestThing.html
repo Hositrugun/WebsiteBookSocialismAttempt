@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialist Thought: The Forerunners 1789-1850</title>
+    <style>
+        ul {
+            list-style-type: none;
+            line-height: 1.5;
+        }
+
+        #PrincipleCharDiv {
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+        }
+
+        .CentreHeading {
+            text-align: center;
+        }
+
+        .JustifyParagraph {
+            text-align: justify;
+        }
+
+        .toggleModeButton {
+            background-color: black;
+            color: white;
+            border: none;
+            height: 36px;
+            width: 100px; /* Set a width for better appearance */
+        }
+    </style>
+    <script>
+        function toggleMode() {
+            var body = document.body;
+            var currentTextColor = body.getAttribute("text");
+            var currentBgColor = body.getAttribute("bgcolor");
+
+            if (currentTextColor === "FFFFFF" && currentBgColor === "000000") {
+                // Switch to Light Mode
+                body.setAttribute("text", "000000");
+                body.setAttribute("bgcolor", "FFFFFF");
+            } else {
+                // Switch to Dark Mode
+                body.setAttribute("text", "FFFFFF");
+                body.setAttribute("bgcolor", "000000");
+            }
+        }
+    </script>
+</head>
+<body text="FFFFFF" bgcolor="000000">
+    <button class="toggleModeButton" onclick="toggleMode()">
+        Toggle Mode
+    </button>
+
+    <!-- Rest of your content -->
+
+</body>
+</html>
