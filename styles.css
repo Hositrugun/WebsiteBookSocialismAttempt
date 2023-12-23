@@ -1,0 +1,28 @@
+/* styles.css */
+
+ul {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+#PrincipleCharDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.CentreHeading {
+    text-align: center;
+}
+
+.JustifyParagraph {
+    text-align: justify;
+}
+
+.toggleModeButton {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 100px; /* Set a width for better appearance */
+}
